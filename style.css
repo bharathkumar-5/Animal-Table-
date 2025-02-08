@@ -1,0 +1,165 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e7c8fc;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8e4803;
+  }
+  
+  .animal-table {
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    background: #aae07a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .animal-table h2 {
+    text-align: left;
+    color: #353535;
+    margin-bottom: 30px;
+  }
+  
+  .animal-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .animal-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ecd90b;
+    border-radius: 8px;
+    background-color: #65b1f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .animal-card img {
+    height: 100px;
+    border-radius: 18px;
+    border: 2px solid #000000;
+    margin-right: 35px;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .animal-card img:hover {
+    transform: scale(1.2);
+    border-color: #5b5f64;
+  }
+  
+  .animal-details {
+    flex: 2;
+  }
+  
+  .animal-details strong {
+    font-weight: bold;
+  }
+  
+  .animal-details .name.table-3 {
+    font-style: oblique;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .animal-details .name.table-2 {
+    font-weight: bold;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin-right: 15px;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: #84ee66;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: #f35363;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .form-section {
+    margin: 20px auto;
+    padding: 15px;
+    width: 90%;
+    background: #f0c442;
+    border: 1px solid #c998f4;
+    border-radius: 8px;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .form-section label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .form-section input,
+  .form-section select,
+  .form-section button {
+    flex: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .form-section button {
+    background: #a1f2fc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    background: #6764c6;
+  }
+
+  .big-fish-name {
+    font-style: inherit;
+    color: blue;
+    font-weight: bold;
+  }
+  .dogs-name {
+    font-weight: bold;
+  }
+  
+  .sort-button {
+    display: inline-block;
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: #805a65;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+  }
+  
+  .sort-button:hover {
+    opacity: 1;
+  }
+  
