@@ -4,7 +4,11 @@
 
 This project is a web-based application that dynamically renders three interactive tables displaying information about Big Cats, Dogs, and Big Fish. Each table provides unique functionalities such as sorting, data entry, validation, deletion, and editing. The project is built using HTML, CSS, Bootstrap, and JavaScript/TypeScript following object-oriented programming principles.
 
-Features
+
+
+Deploy Link : https://animal-table-one.vercel.app/
+
+# Features
 
 Common Features for All Tables
 
@@ -132,6 +136,3 @@ Include pagination for large datasets.
 
 Copyright 2024-25 - Developed By Bharath Kumar
 
-
-
-Deploy Link : https://animal-table-one.vercel.app/
